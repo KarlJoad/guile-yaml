@@ -23,8 +23,7 @@
   #:use-module (guix build-system gnu)
   #:use-module (gnu packages)
   #:use-module (gnu packages guile)
-  #:use-module (gnu packages guile-xyz)
-  #:use-module (synnax packages resume))
+  #:use-module (gnu packages guile-xyz))
 
 (define vcs-file?
   ;; Return true if the given file is under version control.
